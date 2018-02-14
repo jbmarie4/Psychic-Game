@@ -7,6 +7,7 @@ var answers=["red","orange","yellow","green","blue","purple"];
 function startGame(){
 var userGuess=prompt("I'm thinking of a color. Try to guess what it is.");
 document.getElementById("user").innerHTML="You guessed \"" + userGuess + ".\"";
+var pointsEarned=0;
 if(userGuess.toLowerCase() === ""){
     alert("Please provide an answer.");
     
@@ -56,6 +57,8 @@ document.getElementById("computer").innerHTML="The correct answer is " + compute
 //------------------message to user-------------------------------------------
 
 if(userGuess.toLowerCase() === computerGuess.toLowerCase()){
+    var newScore=(pointsEarned + 1);
+    document.getElementById("score").innerHTML=(newScore);
     document.getElementById("messageBox").innerHTML="Congratulations, you just might be psychic! Try again!!";       
 }else{
     document.getElementById("messageBox").innerHTML="That's incorrect. Try again.";

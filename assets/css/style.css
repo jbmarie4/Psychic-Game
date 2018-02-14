@@ -12,6 +12,12 @@ h1{
     margin-bottom:50px;
 }
 
+h3{
+    color:white;
+    font-size:40px;
+    margin-left:5px;
+}
+
 #computer{
     border: 3px solid black;
     background-color: black;
@@ -24,6 +30,7 @@ h1{
     text-align:center;
     padding-top:80px;
     position:relative;
+    margin-top:-30px;
 }
 
 #messageBox{
@@ -32,7 +39,7 @@ h1{
     background-color:purple;
     width: 670px;
     height:70px;
-    margin-top:450px;
+    margin-top:320px;
     margin-left:330px;
     font-size:34px;
     text-align:center;
@@ -48,6 +55,10 @@ h1{
     background-color:orange;
 } */
 
+#score{
+    color:white;
+}
+
 #user{
     border: 3px solid black;
     background-color: black;
@@ -60,6 +71,7 @@ h1{
     text-align:center;
     padding-top:80px;
     position:relative;
+    margin-top:-30px;
 }
 
 @media (max-width:980px){
