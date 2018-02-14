@@ -1,0 +1,94 @@
+body{
+    background-color:#C39BD3;
+}
+
+h1{
+    font-size:50px;
+    font-weight:bold;
+    color:white;
+    text-align:center;
+    border:1px transparent;
+    margin-top:30px;
+    margin-bottom:50px;
+}
+
+#computer{
+    border: 3px solid black;
+    background-color: black;
+    float:left;
+    height:220px;
+    width:300px;
+    margin-left:328px;
+    color:black;
+    font-size:40px;
+    text-align:center;
+    padding-top:80px;
+    position:relative;
+}
+
+#messageBox{
+    border:3px solid black;
+    color:black;
+    background-color:purple;
+    width: 670px;
+    height:70px;
+    margin-top:450px;
+    margin-left:330px;
+    font-size:34px;
+    text-align:center;
+    padding-top:22px;
+    padding-bottom:5px;
+    position:relative;
+}
+
+/* .startButton{
+    height:50px;
+    width:50px;
+    border:1px solid black;
+    background-color:orange;
+} */
+
+#user{
+    border: 3px solid black;
+    background-color: black;
+    float:right;
+    height:220px;
+    width:300px;
+    margin-right:350px;
+    color:black;
+    font-size:40px;
+    text-align:center;
+    padding-top:80px;
+    position:relative;
+}
+
+@media (max-width:980px){
+    .computer{
+        width:100px;
+        height:100px;
+        font-weight:bold;
+        position:static;
+        float:none;
+        border:3px solid black;
+        margin-bottom:-300px;
+}
+    .user{
+        width:100px;
+        height:70px;
+        font-weight:bold;
+        position:static;
+        float:none;
+        border:3px solid black;
+        margin-top:50px;
+}
+    #messageBox{
+        width:300px;
+        height:400px;
+        font-weight:bold;
+        position:static;
+        float:none;
+        border:3px solid black;
+        margin-top:50px;
+}
+}
+
